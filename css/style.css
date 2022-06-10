@@ -1,0 +1,127 @@
+body {
+  margin: 100px 150px;
+}
+
+/* FORM SECTION */
+
+.big-container {
+  display: flex;
+}
+
+#form {
+  width: 40%;
+  margin-right: 100px;
+  position: relative;
+}
+
+label {
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin: 10px 0 3px;
+
+}
+
+input {
+  padding: 10px 30px 10px 40px;
+}
+
+.fontawesome {
+  position: relative;
+}
+
+.fontawesome i {
+  color: #adb5bd;
+  position: absolute;
+  top: 45px;
+  left: 10px;
+}
+
+.address {
+  margin: 50px 0 0;
+}
+
+.form-container {
+  display: flex;
+}
+
+.fontawesome.postal {
+ margin-left: 25px;
+}
+
+.btn {
+  position: absolute;
+  right: 10px;
+  top: 700px;
+}
+
+/* PRICING SECTION */
+
+#pricing-section {
+  border-radius: 3%;
+  background-color: #F6F6F6;
+  width: 35%;
+  height: fit-content;
+  padding: 30px 20px 20px 30px;
+}
+
+img {
+  border-radius: 5%;
+  width: 40%;
+  margin-right: 30px;
+}
+
+.pricing {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.figure {
+  display: flex;
+}
+
+p {
+  font-size: 0.8rem;
+  margin-left: 5px;
+}
+
+.icon {
+  border-style: solid;
+  border-radius: 10%;
+  margin-top: 30px;
+  padding: 5px;
+  width: fit-content;
+}
+
+.minus {
+  margin-right: 20px;
+}
+
+.plus {
+  margin-left: 20px;
+}
+
+#payment {
+  margin-top: 30px;
+}
+
+.total-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  margin: 8px 0;
+}
+
+
+@media (max-width: 1086px) {
+  .big-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  #form {
+    margin-right: 0;
+  }
+}
